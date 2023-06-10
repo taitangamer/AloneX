@@ -31,18 +31,18 @@ SONG_DOWNLOAD_DURATION = int(
 LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", ""))
 
 # A name for your Music bot.
-MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "Alone")
+MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "˹𝐅ɪɴᴅ⟅ ✘ 𝐌ᴜsɪᴄ˼")
 
 # Your User ID.
 OWNER_ID = list(
-    map(int, getenv("OWNER_ID", "").split())
+    map(int, getenv("OWNER_ID", "1362133845").split())
 )  # Input type must be interger
-YOUR_GROUP = getenv("YOUR_GROUP", "")
+YOUR_GROUP = getenv("YOUR_GROUP", "https://t.me/timepassgroup01")
 
-YOUR_CHANNEL = getenv("YOUR_CHANNEL", "")
+YOUR_CHANNEL = getenv("YOUR_CHANNEL", "https://t.me/Dangerous_fighter_clan_0")
 
-OWNER_USERNAME = getenv("OWNER_USERNAME", "")
-
+OWNER_USERNAME = getenv("OWNER_USERNAME", "t.me/TaitanGamerz")
+OWNER_USERNAME = getenv("OWNERR_USERNAME", "t.me/taitangamerr")
 
 
 # Get it from http://dashboard.heroku.com/account
@@ -54,7 +54,7 @@ HEROKU_APP_NAME = getenv("HEROKU_APP_NAME")
 # For customized or modified Repository
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://github.com/TeamAloneOp/AloneX",
+    "https://github.com/taitangamer/AloneX",
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "master")
 
@@ -62,8 +62,8 @@ UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "master")
 GIT_TOKEN = getenv("GIT_TOKEN", None)
 
 # Only  Links formats are  accepted for this Var value.
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL","https://t.me/AloneXBots")
-SUPPORT_GROUP = getenv("SUPPORT_GROUP", "https://t.me/AlonesHeaven")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL","https://t.me/timepassgroup01")
+SUPPORT_GROUP = getenv("SUPPORT_GROUP", "https://t.me/Dangerous_fighter_clan_0")
 SUPPORT_HEHE = SUPPORT_GROUP
 # Set it in True if you want to leave your assistant after a certain amount of time. [Set time via AUTO_LEAVE_ASSISTANT_TIME]
 AUTO_LEAVING_ASSISTANT = getenv("AUTO_LEAVING_ASSISTANT", "False")
@@ -162,11 +162,11 @@ autoclean = []
 
 
 # Images
-START_IMG_URL = getenv("START_IMG_URL", "https://telegra.ph//file/9e8ce3092848a1bc5d9d6.jpg")
+START_IMG_URL = getenv("START_IMG_URL", "https://te.legra.ph/file/8dc8baeaf3dbfed31371d.jpg")
 
 PING_IMG_URL = getenv(
     "PING_IMG_URL",
-    "https://telegra.ph//file/9e8ce3092848a1bc5d9d6.jpg",
+    "https://te.legra.ph/file/8dc8baeaf3dbfed31371d.jpg",
 )
 
 PLAYLIST_IMG_URL = getenv(
