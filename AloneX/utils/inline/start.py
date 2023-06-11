@@ -12,26 +12,25 @@ from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton
 
 import config
 load_dotenv()
-YOUR_GROUP = getenv("YOUR_GROUP", "https://t.me/timepassgroup01")
-YOUR_CHANNEL = getenv("YOUR_CHANNEL", "https://t.me/dangerous_fighter_clan_0")
-OWNER_USERNAME = getenv("OWNER_USERNAME", "https://t.me/taitangamerz")
-OWNER_USERNAME = getenv("OWNERR_USERNAME", "https://t.me/taitangamer")
+YOUR_GROUP = getenv("YOUR_GROUP", "")
+YOUR_CHANNEL = getenv("YOUR_CHANNEL", "")
+OWNER_USERNAME = getenv("OWNER_USERNAME", "")
 
 def start_pannel(_, BOT_USERNAME, OWNER: Union[bool, int] = None):
     buttons = [
         [
             InlineKeyboardButton(
-                text="✚ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ✚",
+                text="✚ 𝐀ᴅᴅ 𝐌ᴇ 𝐓ᴏ 𝐘ᴏᴜʀ 𝐆ʀᴏᴜᴘ ✚",
                 url=f"https://t.me/{BOT_USERNAME}?startgroup=true",
             )
         ],
         [
             InlineKeyboardButton(
-                text="🦋 ғᴇᴀᴛᴜʀᴇ 🦋",
+                text="🦋 𝐅ᴇᴀᴛᴜʀᴇ 🦋",
                 callback_data="settings_back_helper",
             ),
             InlineKeyboardButton(
-                text="⚙️ sᴇᴛᴛɪɴɢ ⚙️", callback_data="settings_helper"
+                text="⚙️ 𝐒ᴇᴛᴛɪɴɢ ⚙️", callback_data="settings_helper"
             ),
         ],
      ]
@@ -48,7 +47,7 @@ def private_panel(_, BOT_USERNAME, OWNER: Union[bool, int] = None):
         ],
         [
             InlineKeyboardButton(
-                text="✨ 𝐌ᴀɴᴛᴀɪɴᴇʀ ✨", url=f"https://t.me/{OWNER_USERNAME}",
+                text="✨ 𝐀ssɪsᴛᴀɴᴛ ✨", url=f"https://t.me/taitangamerz",
             ),
             InlineKeyboardButton(
                 text="🔎 𝐇ᴇʟᴘ 🔎", callback_data="settings_back_helper"
@@ -56,16 +55,16 @@ def private_panel(_, BOT_USERNAME, OWNER: Union[bool, int] = None):
         ],
         [
             InlineKeyboardButton(
-                text="💫 𝐒ᴜᴘᴘᴏʀᴛ 💫", url=f"https://t.me/{YOUR_GROUP}",
+                text="💫 𝐒ᴜᴘᴘᴏʀᴛ 💫", url=f"https://t.me/dangerous_fighter_clan_0}",
             ),
             InlineKeyboardButton(
-                text="🍁 𝐆ʀᴏᴜᴘ 🍁", url=f"https://t.me/{YOUR_CHANNEL}",
+                text="🍁 𝐔ᴘᴅᴀᴛᴇs 🍁", url=f"https://t.me/timepassgroup01",
             )
         ],
         [
             InlineKeyboardButton(
-                text="❄️ 𝐎ᴡɴᴇʀ ❄️",
-                url=f"https://t.me/{OWNERR_USERNAME}",
+                text="♕ ︎𝐎ᴡɴᴇʀ ♕︎",
+                url=f"https://t.me/taitangamer",
             )
         ],
      ]
