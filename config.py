@@ -37,12 +37,12 @@ MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "˹𝐉ɪʏᴀ⟅ ✘ 𝐌ᴜsɪᴄ˼"
 OWNER_ID = list(
     map(int, getenv("OWNER_ID", "1362133845").split())
 )  # Input type must be interger
-YOUR_GROUP = getenv("YOUR_GROUP", "https://t.me/timepassgroup01")
+YOUR_GROUP = getenv("YOUR_GROUP", "https://t.me/DXDREAMBIG")
 
 YOUR_CHANNEL = getenv("YOUR_CHANNEL", "https://t.me/Dangerous_fighter_clan_0")
 
 OWNER_USERNAME = getenv("OWNER_USERNAME", "t.me/TaitanGamerz")
-OWNER_USERNAME = getenv("OWNERR_USERNAME", "t.me/taitangamerr")
+OWNER_USERNAME = getenv("OWNERR_USERNAME", "t.me/VPMAHESHBABU")
 
 
 # Get it from http://dashboard.heroku.com/account
@@ -62,8 +62,8 @@ UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "master")
 GIT_TOKEN = getenv("GIT_TOKEN", None)
 
 # Only  Links formats are  accepted for this Var value.
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL","https://t.me/timepassgroup01")
-SUPPORT_GROUP = getenv("SUPPORT_GROUP", "https://t.me/Dangerous_fighter_clan_0")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL","https://t.me/taitanoffice")
+SUPPORT_GROUP = getenv("SUPPORT_GROUP", "https://t.me/DXDREAMBIG")
 SUPPORT_HEHE = SUPPORT_GROUP
 # Set it in True if you want to leave your assistant after a certain amount of time. [Set time via AUTO_LEAVE_ASSISTANT_TIME]
 AUTO_LEAVING_ASSISTANT = getenv("AUTO_LEAVING_ASSISTANT", "False")
