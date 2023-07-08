@@ -31,13 +31,13 @@ SONG_DOWNLOAD_DURATION = int(
 LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", ""))
 
 # A name for your Music bot.
-MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "˹𝐉ɪʏᴀ⟅ ✘ 𝐌ᴜsɪᴄ˼")
+MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "˹𝐇𝐞𝐞𝐫 ✘ 𝐌ᴜsɪᴄ˼")
 
 # Your User ID.
 OWNER_ID = list(
     map(int, getenv("OWNER_ID", "1362133845").split())
 )  # Input type must be interger
-YOUR_GROUP = getenv("YOUR_GROUP", "https://t.me/DXDREAMBIG")
+YOUR_GROUP = getenv("YOUR_GROUP", "https://t.me/THEYSTOPPAGE")
 
 YOUR_CHANNEL = getenv("YOUR_CHANNEL", "https://t.me/Dangerous_fighter_clan_0")
 
